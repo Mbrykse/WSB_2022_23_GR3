@@ -1,5 +1,4 @@
 import unittest
-
 class Dodawanie(unittest.Testcase):
     def test_main(self):
         result = addition(3,6)
@@ -10,4 +9,3 @@ class Dodawanie(unittest.Testcase):
 
 if __name__ == "__main__":
     unittest.main()
-    
