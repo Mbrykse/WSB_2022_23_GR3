@@ -7,4 +7,7 @@ class Dodawanie(unittest.Testcase):
     
     def addition(arg1, arg2):
         return arg1 + arg2
-        
+
+if __name__ == "__main__":
+    unittest.main()
+    
